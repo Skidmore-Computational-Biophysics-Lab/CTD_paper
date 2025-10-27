@@ -1,0 +1,7 @@
+inimization w/o restraints
+&cntrl
+imin = 1,
+ntb = 1, cut = 9.0,
+ntc = 1, ntf = 1,
+maxcyc = 1000, ncyc = 500
+/
