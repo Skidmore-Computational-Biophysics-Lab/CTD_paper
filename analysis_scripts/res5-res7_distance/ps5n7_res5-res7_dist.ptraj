@@ -1,0 +1,14 @@
+parm /data/chem_shared/CTD/ps5n7/ps5n7_cis_gas.prmtop
+
+trajin /data/chem_shared/CTD/ps5n7/mdcrd/ps5n7_cis_combined_sim1.mdcrd
+trajin /data/chem_shared/CTD/ps5n7/mdcrd/ps5n7_cis_combined_sim2.mdcrd
+trajin /data/chem_shared/CTD/ps5n7/mdcrd/ps5n7_cis_combined_sim3.mdcrd
+trajin /data/chem_shared/CTD/ps5n7/mdcrd/ps5n7_cis_combined_sim4.mdcrd
+trajin /data/chem_shared/CTD/ps5n7/mdcrd/ps5n7_cis_combined_sim5.mdcrd
+trajin /data/chem_shared/CTD/ps5n7/mdcrd/ps5n7_trans_combined_sim1.mdcrd
+trajin /data/chem_shared/CTD/ps5n7/mdcrd/ps5n7_trans_combined_sim2.mdcrd
+trajin /data/chem_shared/CTD/ps5n7/mdcrd/ps5n7_trans_combined_sim3.mdcrd
+trajin /data/chem_shared/CTD/ps5n7/mdcrd/ps5n7_trans_combined_sim4.mdcrd
+trajin /data/chem_shared/CTD/ps5n7/mdcrd/ps5n7_trans_combined_sim5.mdcrd
+
+distance SEP12-ASN14 :13@CB :15@CB out dat/ser5_ser7_dist.dat

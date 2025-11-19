@@ -1,0 +1,17 @@
+parm /data/chem_shared/CTD/s5n7/ctd_cis_gas.prmtop
+
+trajin /data/chem_shared/CTD/s5n7/mdcrd/s5n7_cis_combined_sim1.mdcrd 1 last 100
+trajin /data/chem_shared/CTD/s5n7/mdcrd/s5n7_cis_combined_sim2.mdcrd 1 last 100
+trajin /data/chem_shared/CTD/s5n7/mdcrd/s5n7_cis_combined_sim3.mdcrd 1 last 100
+trajin /data/chem_shared/CTD/s5n7/mdcrd/s5n7_cis_combined_sim4.mdcrd 1 last 100
+trajin /data/chem_shared/CTD/s5n7/mdcrd/s5n7_cis_combined_sim5.mdcrd 1 last 100
+trajin /data/chem_shared/CTD/s5n7/mdcrd/s5n7_trans_combined_sim1.mdcrd 1 last 100
+trajin /data/chem_shared/CTD/s5n7/mdcrd/s5n7_trans_combined_sim2.mdcrd 1 last 100
+trajin /data/chem_shared/CTD/s5n7/mdcrd/s5n7_trans_combined_sim3.mdcrd 1 last 100
+trajin /data/chem_shared/CTD/s5n7/mdcrd/s5n7_trans_combined_sim4.mdcrd 1 last 100
+trajin /data/chem_shared/CTD/s5n7/mdcrd/s5n7_trans_combined_sim5.mdcrd 1 last 100
+
+distance @XXXXX @YYYYY out distances/XXXXX-YYYYY.dat
+
+run
+quit

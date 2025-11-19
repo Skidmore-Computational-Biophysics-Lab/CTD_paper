@@ -1,0 +1,25 @@
+parm /home/reast/data/CTD_project/ps5n7/ctd_cis_p/ctd_cis_gas.prmtop
+
+trajin /data/wbarr/ctd_project/final_combined_sims/asparagine/ps5n7/mdcrd/ps5n7_cis_combined_sim1.mdcrd
+
+trajin /data/wbarr/ctd_project/final_combined_sims/asparagine/ps5n7/mdcrd/ps5n7_cis_combined_sim2.mdcrd
+
+trajin /data/wbarr/ctd_project/final_combined_sims/asparagine/ps5n7/mdcrd/ps5n7_cis_combined_sim3.mdcrd
+
+trajin /data/wbarr/ctd_project/final_combined_sims/asparagine/ps5n7/mdcrd/ps5n7_cis_combined_sim4.mdcrd
+
+trajin /data/wbarr/ctd_project/final_combined_sims/asparagine/ps5n7/mdcrd/ps5n7_cis_combined_sim5.mdcrd
+
+trajin /data/wbarr/ctd_project/final_combined_sims/asparagine/ps5n7/mdcrd/ps5n7_trans_p_combined_sim1.mdcrd
+
+trajin /data/wbarr/ctd_project/final_combined_sims/asparagine/ps5n7/mdcrd/ps5n7_trans_p_combined_sim2.mdcrd
+
+trajin /data/wbarr/ctd_project/final_combined_sims/asparagine/ps5n7/mdcrd/ps5n7_trans_p_combined_sim3.mdcrd
+
+trajin /data/wbarr/ctd_project/final_combined_sims/asparagine/ps5n7/mdcrd/ps5n7_trans_p_combined_sim4.mdcrd
+
+trajin /data/wbarr/ctd_project/final_combined_sims/asparagine/ps5n7/mdcrd/ps5n7_trans_p_combined_sim5.mdcrd
+
+secstruct out ctd_p_sec.out sumout ./ctd_p_sec.sum assignout ./assignout.out totalout ./totalout.out ptrajformat
+run
+quit

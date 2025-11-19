@@ -1,0 +1,29 @@
+parm /data/chem_shared/CTD/s5s7/s5s7_cis_gas.prmtop
+
+trajin /data/chem_shared/CTD/s5s7/mdcrd/s5s7_cis_combined_sim1.mdcrd -4799999 last
+
+trajin /data/chem_shared/CTD/s5s7/mdcrd/s5s7_cis_combined_sim2.mdcrd -4799999 last
+
+trajin /data/chem_shared/CTD/s5s7/mdcrd/s5s7_cis_combined_sim3.mdcrd -4799999 last
+
+trajin /data/chem_shared/CTD/s5s7/mdcrd/s5s7_cis_combined_sim4.mdcrd -4799999 last
+
+trajin /data/chem_shared/CTD/s5s7/mdcrd/s5s7_cis_combined_sim5.mdcrd -4799999 last
+
+trajin /data/chem_shared/CTD/s5s7/mdcrd/s5s7_trans_combined_sim1.mdcrd -4799999 last
+
+trajin /data/chem_shared/CTD/s5s7/mdcrd/s5s7_trans_combined_sim2.mdcrd -4799999 last
+
+trajin /data/chem_shared/CTD/s5s7/mdcrd/s5s7_trans_combined_sim3.mdcrd -4799999 last
+
+trajin /data/chem_shared/CTD/s5s7/mdcrd/s5s7_trans_combined_sim4.mdcrd -4799999 last
+
+trajin /data/chem_shared/CTD/s5s7/mdcrd/s5s7_trans_combined_sim5.mdcrd -4799999 last
+
+multidihedral phi psi omega resrange 1-23 out ctd_all.dat
+multidihedral phi resrange 1-23 out ctd_dihedral_Phi.dat
+multidihedral psi resrange 1-23 out ctd_dihedral_Psi.dat
+multidihedral phi psi resrange 1-23 out ctd_dihedral_Phi_Psi.dat
+multidihedral omega resrange 1-23 out ctd_dihedral_Omega.dat
+run
+quit

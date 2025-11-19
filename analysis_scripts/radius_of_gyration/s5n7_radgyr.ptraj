@@ -1,0 +1,26 @@
+parm /data/reast/CTD_project/s5n7/CTD_cis/ctd_cis_gas.prmtop
+
+trajin /data/wbarr/ctd_project/final_combined_sims/asparagine/s5n7/mdcrd/s5n7_cis_combined_sim1.mdcrd
+
+trajin /data/wbarr/ctd_project/final_combined_sims/asparagine/s5n7/mdcrd/s5n7_cis_combined_sim2.mdcrd
+
+trajin /data/wbarr/ctd_project/final_combined_sims/asparagine/s5n7/mdcrd/s5n7_cis_combined_sim3.mdcrd
+
+trajin /data/wbarr/ctd_project/final_combined_sims/asparagine/s5n7/mdcrd/s5n7_cis_combined_sim4.mdcrd
+
+trajin /data/wbarr/ctd_project/final_combined_sims/asparagine/s5n7/mdcrd/s5n7_cis_combined_sim5.mdcrd
+
+trajin /data/wbarr/ctd_project/final_combined_sims/asparagine/s5n7/mdcrd/s5n7_trans_combined_sim1.mdcrd
+
+trajin /data/wbarr/ctd_project/final_combined_sims/asparagine/s5n7/mdcrd/s5n7_trans_combined_sim2.mdcrd
+
+trajin /data/wbarr/ctd_project/final_combined_sims/asparagine/s5n7/mdcrd/s5n7_trans_combined_sim3.mdcrd
+
+trajin /data/wbarr/ctd_project/final_combined_sims/asparagine/s5n7/mdcrd/s5n7_trans_combined_sim4.mdcrd
+
+trajin /data/wbarr/ctd_project/final_combined_sims/asparagine/s5n7/mdcrd/s5n7_trans_combined_sim5.mdcrd
+
+radgyr 1-23 out /data/mcohen3/CTD/asparagine/s5n7/analysis/radgyr/radgyr_a_ctd.dat mass 
+radgyr backbone @N,CA,C out /data/mcohen3/CTD/asparagine/s5n7/analysis/radgyr/radgyr_bb_ctd.dat
+run
+quit

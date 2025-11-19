@@ -1,0 +1,49 @@
+parm /data/chem_shared/CTD/s5n7/ctd_cis_gas.prmtop
+
+trajin /data/chem_shared/CTD/s5n7/mdcrd/s5n7_cis_combined_sim1.mdcrd
+
+trajin /data/chem_shared/CTD/s5n7/mdcrd/s5n7_cis_combined_sim2.mdcrd
+
+trajin /data/chem_shared/CTD/s5n7/mdcrd/s5n7_cis_combined_sim3.mdcrd
+
+trajin /data/chem_shared/CTD/s5n7/mdcrd/s5n7_cis_combined_sim4.mdcrd
+
+trajin /data/chem_shared/CTD/s5n7/mdcrd/s5n7_cis_combined_sim5.mdcrd
+
+trajin /data/chem_shared/CTD/s5n7/mdcrd/s5n7_trans_combined_sim1.mdcrd
+
+trajin /data/chem_shared/CTD/s5n7/mdcrd/s5n7_trans_combined_sim2.mdcrd
+
+trajin /data/chem_shared/CTD/s5n7/mdcrd/s5n7_trans_combined_sim3.mdcrd
+
+trajin /data/chem_shared/CTD/s5n7/mdcrd/s5n7_trans_combined_sim4.mdcrd
+
+trajin /data/chem_shared/CTD/s5n7/mdcrd/s5n7_trans_combined_sim5.mdcrd
+
+surf out dat/surf.dat
+surf :1 out dat/surf.dat
+surf :2 out dat/surf.dat
+surf :3 out dat/surf.dat
+surf :4 out dat/surf.dat
+surf :5 out dat/surf.dat
+surf :6 out dat/surf.dat
+surf :7 out dat/surf.dat
+surf :8 out dat/surf.dat
+surf :9 out dat/surf.dat
+surf :10 out dat/surf.dat
+surf :11 out dat/surf.dat
+surf :12 out dat/surf.dat
+surf :13 out dat/surf.dat
+surf :14 out dat/surf.dat
+surf :15 out dat/surf.dat
+surf :16 out dat/surf.dat
+surf :17 out dat/surf.dat
+surf :18 out dat/surf.dat
+surf :19 out dat/surf.dat
+surf :20 out dat/surf.dat
+surf :21 out dat/surf.dat
+surf :22 out dat/surf.dat
+surf :23 out dat/surf.dat
+
+run
+quit 

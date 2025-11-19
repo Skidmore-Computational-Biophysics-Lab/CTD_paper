@@ -1,0 +1,29 @@
+parm /data/reast/CTD_project/s5n7/CTD_cis/ctd_cis_gas.prmtop  
+
+trajin /data/wbarr/ctd_project/final_combined_sims/asparagine/s5n7/mdcrd/s5n7_cis_combined_sim1.mdcrd
+
+trajin /data/wbarr/ctd_project/final_combined_sims/asparagine/s5n7/mdcrd/s5n7_cis_combined_sim2.mdcrd
+
+trajin /data/wbarr/ctd_project/final_combined_sims/asparagine/s5n7/mdcrd/s5n7_cis_combined_sim3.mdcrd
+
+trajin /data/wbarr/ctd_project/final_combined_sims/asparagine/s5n7/mdcrd/s5n7_cis_combined_sim4.mdcrd
+
+trajin /data/wbarr/ctd_project/final_combined_sims/asparagine/s5n7/mdcrd/s5n7_cis_combined_sim5.mdcrd
+
+trajin /data/wbarr/ctd_project/final_combined_sims/asparagine/s5n7/mdcrd/s5n7_trans_combined_sim1.mdcrd
+
+trajin /data/wbarr/ctd_project/final_combined_sims/asparagine/s5n7/mdcrd/s5n7_trans_combined_sim2.mdcrd
+
+trajin /data/wbarr/ctd_project/final_combined_sims/asparagine/s5n7/mdcrd/s5n7_trans_combined_sim3.mdcrd
+
+trajin /data/wbarr/ctd_project/final_combined_sims/asparagine/s5n7/mdcrd/s5n7_trans_combined_sim4.mdcrd
+
+trajin /data/wbarr/ctd_project/final_combined_sims/asparagine/s5n7/mdcrd/s5n7_trans_combined_sim5.mdcrd
+
+multidihedral phi psi omega resrange 1-23 out ctd_all.dat
+multidihedral phi resrange 1-23 out ctd_dihedral_Phi.dat
+multidihedral psi resrange 1-23 out ctd_dihedral_Psi.dat
+multidihedral phi psi resrange 1-23 out ctd_dihedral_Phi_Psi.dat
+multidihedral omega resrange 1-23 out ctd_dihedral_Omega.dat
+run
+quit

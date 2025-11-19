@@ -1,0 +1,25 @@
+parm /data/chem_shared/CTD/s5n7/ctd_cis_gas.prmtop
+
+trajin /data/chem_shared/CTD/s5n7/mdcrd/s5n7_cis_combined_sim1.mdcrd
+
+trajin /data/chem_shared/CTD/s5n7/mdcrd/s5n7_cis_combined_sim2.mdcrd
+
+trajin /data/chem_shared/CTD/s5n7/mdcrd/s5n7_cis_combined_sim3.mdcrd
+
+trajin /data/chem_shared/CTD/s5n7/mdcrd/s5n7_cis_combined_sim4.mdcrd
+
+trajin /data/chem_shared/CTD/s5n7/mdcrd/s5n7_cis_combined_sim5.mdcrd
+
+trajin /data/chem_shared/CTD/s5n7/mdcrd/s5n7_trans_combined_sim1.mdcrd
+
+trajin /data/chem_shared/CTD/s5n7/mdcrd/s5n7_trans_combined_sim2.mdcrd
+
+trajin /data/chem_shared/CTD/s5n7/mdcrd/s5n7_trans_combined_sim3.mdcrd
+
+trajin /data/chem_shared/CTD/s5n7/mdcrd/s5n7_trans_combined_sim4.mdcrd
+
+trajin /data/chem_shared/CTD/s5n7/mdcrd/s5n7_trans_combined_sim5.mdcrd
+
+distance SER5-SER12 :6@OG :13@OG out dat/ser5_dist_all.dat
+distance SER12-SER19 :13@OG :20@OG out dat/ser5_dist_all.dat
+distance SER5-SER19 :6@OG :20@OG out dat/ser5_dist_all.dat

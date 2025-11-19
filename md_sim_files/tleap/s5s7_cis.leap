@@ -1,0 +1,13 @@
+source oldff/leaprc.ff99SB
+source leaprc.phosaa10
+ffmodw = loadamberparams frcmod.ff99SB_w_dih_lowerbarrier
+source leaprc.water.tip3p
+loadamberparams frcmod.tip3pfb
+ctd_cis = loadpdb campari_cis_09989.pdb
+saveamberparm ctd_cis ctd_cis_gas.prmtop ctd_cis_gas.inpcrd
+savepdb ctd_cis ctd_cis.pdb
+solvateoct ctd_cis TIP3PBOX 15 iso
+addionsrand ctd_cis Na+ 0
+addionsrand ctd_cis Cl- 0
+saveamberparm ctd_cis ctd_cis_wat.prmtop ctd_cis_wat.inprcd
+quit

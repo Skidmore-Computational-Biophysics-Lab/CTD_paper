@@ -1,0 +1,16 @@
+parm /data/chem_shared/CTD/ps5s7/ps5s7_cis_gas.prmtop
+
+trajin /data/chem_shared/CTD/ps5s7/mdcrd/ps5s7_cis_p_combined_sim1.mdcrd -4799999 last
+trajin /data/chem_shared/CTD/ps5s7/mdcrd/ps5s7_cis_p_combined_sim2.mdcrd -4799999 last
+trajin /data/chem_shared/CTD/ps5s7/mdcrd/ps5s7_cis_p_combined_sim3.mdcrd -4799999 last
+trajin /data/chem_shared/CTD/ps5s7/mdcrd/ps5s7_cis_p_combined_sim4.mdcrd -4799999 last
+trajin /data/chem_shared/CTD/ps5s7/mdcrd/ps5s7_cis_p_combined_sim5.mdcrd -4799999 last
+trajin /data/chem_shared/CTD/ps5s7/mdcrd/ps5s7_trans_p_combined_sim1.mdcrd -4799999 last
+trajin /data/chem_shared/CTD/ps5s7/mdcrd/ps5s7_trans_p_combined_sim2.mdcrd -4799999 last
+trajin /data/chem_shared/CTD/ps5s7/mdcrd/ps5s7_trans_p_combined_sim3.mdcrd -4799999 last
+trajin /data/chem_shared/CTD/ps5s7/mdcrd/ps5s7_trans_p_combined_sim4.mdcrd -4799999 last
+trajin /data/chem_shared/CTD/ps5s7/mdcrd/ps5s7_trans_p_combined_sim5.mdcrd -4799999 last
+
+distance SEP5-SEP12 :6@OG :13@OG out dat/ser5_OG_dist_all.dat
+distance SEP12-SEP19 :13@OG :20@OG out dat/ser5_OG_dist_all.dat
+distance SEP5-SEP19 :6@OG :20@OG out dat/ser5_OG_dist_all.dat

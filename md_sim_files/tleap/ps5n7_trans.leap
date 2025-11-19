@@ -1,0 +1,10 @@
+source oldff/leaprc.ff99SB
+source leaprc.phosaa10
+ffmodw = loadamberparams frcmod.ff99SB_w_dih_lowerbarrier
+source leaprc.water.tip3p
+ctd_trans_p = loadpdb campari_trans_p10000.pdb
+loadamberparams frcmod.tip3pfb
+solvateoct ctd_trans_p TIP3PBOX 15 iso
+addionsrand ctd_trans_p K+  0
+addionsrand ctd_trans_p Cl- 0
+quit
