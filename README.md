@@ -9,6 +9,9 @@ This folder is organized by type of analysis. It includes ptraj scripts used to 
 ## md_sim_files/
 This folder contains starting structure files used for our simulations.
 
+## reweighting/
+This folder contains the scripts used for reweighting the frames from our GaMD simulations.
+
 # Figures
 Pathways to the Jupyter Notebooks that produced the figures in the manuscript and SI
 
