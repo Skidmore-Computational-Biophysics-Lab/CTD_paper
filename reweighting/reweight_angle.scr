@@ -1,0 +1,15 @@
+#!/bin/bash
+#BATCH -D /data/mcohen3/CTD/consensus/ps5s7/reweighting/
+#SBATCH -J ps5s7_angles
+#SBATCH --partition=gpuq
+#SBATCH --output=out/ps5s7_angles.out
+#SBATCH --error=out/ps5s7_angles_ERROR.out
+#SBATCH --time=100:00:00
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=500
+
+source /etc/profile.d/modules.sh
+module load amber/amber24
+
+cpptraj -i reweight_angle.ptraj
