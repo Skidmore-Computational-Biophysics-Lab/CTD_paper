@@ -8,3 +8,30 @@ This folder is organized by type of analysis. It includes ptraj scripts used to 
 
 ## md_sim_files/
 This folder contains starting structure files used for our simulations.
+
+# Figures
+Pathways to the Jupyter Notebooks that produced the figures in the manuscript and SI
+
+Figure 1:
+
+Figure 2:
+
+Figure 3:
+
+Figure 4:
+
+Figure 5:
+
+Figure 6:
+
+Figure 7: 
+
+Figure 8:
+
+Figure 9:
+
+Figure 10:
+
+Figure 11:
+
+Figure 12:
