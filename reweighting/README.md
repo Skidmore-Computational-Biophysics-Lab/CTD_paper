@@ -1,3 +1,5 @@
+Most scripts here are modified from the PyReweighting repository: https://github.com/MiaoLab20/pyreweighting
+
 The gamd logs from each simulation of a CTD construct were combined by concatenating the last relevant number of frames of each log with 
 the read_last_lines_gamd.sh script.
 
