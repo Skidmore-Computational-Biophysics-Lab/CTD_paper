@@ -15,26 +15,22 @@ This folder contains the scripts used for reweighting the frames from our GaMD s
 # Figures
 Pathways to the Jupyter Notebooks that produced the figures in the manuscript and SI
 
-Figure 1:
+Figure 3: (A) analysis_scripts/turn_and_cis/ctd_turn-pro13cis-Con.ipynb (B) analysis_scripts/turn_and_cis/ctd_turn-pro13cis-Asn.ipynb
 
-Figure 2:
+Figure 4: (A) analysis_scripts/radius_of_gyration/radgyr_con.ipynb (B) analysis_scripts/radius_of_gyration/radgyr_asn.ipynb
 
-Figure 3:
+Figure 5: (A) analysis_scripts/ser5_distances/ser5_distances_Con.ipynb (B) analysis_scripts/ser5_distances/ser5_distances_Asn.ipynb
 
-Figure 4:
+Figure 6: (A & B) analysis_scripts/SAXS_Pr/SAXS_experimental_Pr.ipynb (C) analysis_scripts/SAXS_Pr/pair_distance_distribution_Con.ipynb (D) analysis_scripts/SAXS_Pr/pair_distance_distribution_Asn.ipynb
 
-Figure 5:
+Figure 7: (A) analysis_scripts/turn_and_cis/ctd_turn-pro13cis-Con.ipynb (B) analysis_scripts/turn_and_cis/ctd_turn-pro13cis-Asn.ipynb
 
-Figure 6:
+Figure 8: (A & C) analysis_scripts/turn_and_cis/ctd_turn-pro13cis-Con.ipynb (B & D) analysis_scripts/turn_and_cis/ctd_turn-pro13cis-Asn.ipynb
 
-Figure 7: 
+Figure 9: (A & C) analysis_scripts/radius_of_gyration/radgyr_con.ipynb (B & D) analysis_scripts/radius_of_gyration/radgyr_asn.ipynb (E) analysis_scripts/radius_of_gyration/radgyr_con.py (F) analysis_scripts/radius_of_gyration/radgyr_asn.py
 
-Figure 8:
+Figure 10: (A-D) analysis_scripts/contact_maps_and_clustering/contact_maps.ipynb
 
-Figure 9:
+Figure 11: (A & B) analysis_scripts/contact_maps_and_clustering/cluster_figure.ipynb
 
-Figure 10:
-
-Figure 11:
-
-Figure 12:
+Figure 12: (A) analysis_scripts/res5-res7_distance/pS5-S7_histogram_Con.ipynb (B) analysis_scripts/res5-res7_distance/pS5-S7_histogram_Asn.ipynb
