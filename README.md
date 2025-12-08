@@ -34,3 +34,15 @@ Figure 10: (A-D) analysis_scripts/contact_maps_and_clustering/contact_maps.ipynb
 Figure 11: (A & B) analysis_scripts/contact_maps_and_clustering/cluster_figure.ipynb
 
 Figure 12: (A) analysis_scripts/res5-res7_distance/pS5-S7_histogram_Con.ipynb (B) analysis_scripts/res5-res7_distance/pS5-S7_histogram_Asn.ipynb
+
+Figure S1: analysis_scripts/turn_and_cis/ctd_turn-pro13cis-Con.ipynb
+
+Figure S6: (A & C) analysis_scripts/turn_and_cis/ctd_turn-pro13cis-Con.ipynb (B & D) analysis_scripts/turn_and_cis/ctd_turn-pro13cis-Asn.ipynb
+
+Figure S7: (A & B) analysis_scripts/turn_and_cis/avg_turn_percentage_full_peptide.ipynb
+
+Figure S8: (A-D) analysis_scripts/contact_maps_and_clustering/contact_maps.ipynb
+
+Figure S9: (A) (B) analysis_scripts/contact_maps_and_clustering/cluster_figure.ipynb
+
+Figure S10: (A & C) analysis_scripts/SASA/SASA_histogram_Con.ipynb (B & D) analysis_scripts/SASA/SASA_histogram_Asn.ipynb
