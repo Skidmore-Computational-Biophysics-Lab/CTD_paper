@@ -43,6 +43,6 @@ Figure S7: (A & B) analysis_scripts/turn_and_cis/avg_turn_percentage_full_peptid
 
 Figure S8: (A-D) analysis_scripts/contact_maps_and_clustering/contact_maps.ipynb
 
-Figure S9: (A) (B) analysis_scripts/contact_maps_and_clustering/cluster_figure.ipynb
+Figure S9: (A) analysis_scripts/contact_maps_and_clustering/contact_map_clustering_elbow.ipynb (B) analysis_scripts/contact_maps_and_clustering/cluster_figure.ipynb
 
 Figure S10: (A & C) analysis_scripts/SASA/SASA_histogram_Con.ipynb (B & D) analysis_scripts/SASA/SASA_histogram_Asn.ipynb
